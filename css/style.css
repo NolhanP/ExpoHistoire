@@ -1,0 +1,86 @@
+
+.main_text {
+    font-family: Arial; 
+    text-align: center;
+}
+
+
+body {
+    max-width: 400px; 
+    margin:0px auto;
+}
+
+@keyframes upSlide{
+	from {top: 0px;}
+	to {top: 60px;}
+
+}
+
+.flex-container {
+    display: flex;
+}
+
+.flex-audio {
+    flex: 10px;
+    border: 6px solid rgb(255, 255, 255);
+}  
+
+.flex-imgSpace {
+    flex: 10px;
+	height: 180px;
+	border: 2px solid #ffffff;
+	background-repeat: no-repeat;
+	opacity: 0;
+	transition: all 0.5s; 
+}  
+
+.flex-audio {
+    margin-right: 0px;
+} 
+
+.flex-texte {
+ 	left: 50px;
+    flex: 10;
+	text-align: left;
+	margin-top: auto;
+	margin-bottom: auto;
+	font-size: 14pt;
+	font-family: arial;
+	border: 10px solid #fafafa;
+	background-color:#fafafa;
+	border-radius: 10px;
+}  
+
+.flex-texte {
+    margin-right: 0px;
+	transition: all 0.5s;
+} 
+
+.button {
+	outline: none;
+	background-color:#808080;
+	border-radius: 50%;
+	border: 7px solid #3a3a3a;
+text-indent:0;
+	display:inline-block;
+	color:#ffffff;
+	font-family:arial;
+	transition: all 0.2s;
+
+	background-image: url(img/play.png);
+	background-size: 25px 25px;
+	background-repeat: no-repeat;
+	background-position: 53% 50%;
+
+	font-style:normal;
+height:60px;
+	line-height:50px;
+width:60px;
+	text-decoration:none;
+	text-align:center;
+}.button:hover {
+	background-color:#8a8a8a;
+}.button:active {
+	position:relative;
+	top:1px;
+}
